@@ -16,7 +16,9 @@ jupyter labextension link .
 ```
 To re-distribute the package, you can pack to a tar ball and install with below command.
 ```
+npm install
+npm run build
 npm pack .
-jupyterlab-logout-1.0.0.tgz
-jupyter labextension install jupyterlab-logout-1.0.0.tgz
+jupyterlab-logout-1.0.1.tgz
+jupyter labextension install jupyterlab-logout-1.0.1.tgz
 ```
